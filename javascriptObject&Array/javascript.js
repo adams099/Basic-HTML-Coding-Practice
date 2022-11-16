@@ -56,7 +56,7 @@ user[1] = {
     favoriteRestaurant : ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]
 };
 
-console.log("Nama :" + user[1].name);
-console.log("SMA :" + user[1].education[2].name);
-console.log("Kota :" + user[1].education[2].city);
-console.log("Makanan Favorit :" + user[1].favoriteRestaurant[5]);
+console.log("Nama : " + user[1].name);
+console.log("SMA : " + user[1].education[2].name);
+console.log("Kota : " + user[1].education[2].city);
+console.log("Makanan Favorit : " + user[1].favoriteRestaurant[5]);
