@@ -54,10 +54,7 @@ $(document).ready(function(){
         // show msg
         $("#msg").removeClass("d-none");
 
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        })
+        window.scrollTo(0,0)
 
     })
 
