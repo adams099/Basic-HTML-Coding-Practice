@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="script.js"></script>
+
+    <title>Shipping</title>
+
+    
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm bg-white navbar-dark justify-content-between">
+             <!-- nvbar 1 -->
+            <div>
+                <a class="navbar-brand mx-5" href="#">
+                  <img src="assets/img/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="navbar-nav">
+                <div class="nav-item d-flex">
+                    <div>
+                        <a class="nav-link text-dark" href="#">Showcase</a>
+                    </div>
+                     
+                    <div>
+                        <a class="nav-link text-dark" href="#">Catalog</a>
+                    </div>
+        
+                    <div>
+                        <a class="nav-link text-dark" href="#">Delivery</a>
+                    </div>
+        
+                    <div>
+                        <a class="nav-link text-dark" href="#">Rewards</a>
+                    </div>
+        
+                    <div>
+                        <img src="assets/img/cart-icon.png" alt="keranjang">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end nvbar 1 -->
+        
+        <!-- nvbar 2 -->
+        <nav class="nav">
+            <a class="ml-5" href="#">Home /&nbsp;</a>
+            <a href="#">Office Room /&nbsp;</a>
+            <a href="index.html">Detail /&nbsp;</a>
+            <a href="#"><strong>Shipping</strong></a>
+        </nav>
+        <!-- end nvbar 1 -->
+    </header>
+    
+    <!-- content -->
+    
+    <main>
+        <div class="alert alert-success my-5 d-none" role="alert" id="msg">
+            <h4 class="alert-heading" id="nama"></h4>
+            <p id="address"></p>
+            <hr>
+            <button type="submit" class="btn btn-primary" style="background-color: pink;"><a href="index.html" class="nav-link text-dark">Submit</a></button>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col col-md-5 my-5">
+                <form class="border border-primary p-5" id="form-checkout">
+                    <h1 class="mb-5" align="center">Shipping Form</h1>
+    
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="first-name">First Name</label>
+                        <input placeholder="Enter your first name" type="text" class="form-control" id="first-name" required>
+                      </div>
+    
+                      <div class="form-group col-md-6">
+                        <label for="phone-number">Phone Number</label>
+                        <input placeholder="Enter your phone number" type="number" class="form-control" id="phone-number" required>
+                      </div>
+                    </div>
+    
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="last-name">Last Name</label>
+                          <input placeholder="Enter your last name" type="text" class="form-control" id="last-name" required>
+                        </div>
+      
+                        <div class="form-group col-md-6">
+                          <label for="city">City</label>
+                          <input placeholder="Enter City" type="text" class="form-control" id="city" required>
+                        </div>
+                      </div>
+    
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="email">Email Addres</label>
+                          <input placeholder="Enter email" type="email" class="form-control" id="email" required>
+                        </div>
+      
+                        <div class="form-group col-md-6">
+                          <label for="postal-code">Postal Code</label>
+                          <input placeholder="Enter postal code" type="text" class="form-control" id="postal-code" required>
+                        </div>
+                      </div>
+    
+                    <div class="form-group">
+                      <label for="inputAddress">Address</label>
+                      <textarea name="address" id="inputAddress" cols="46" rows="4" placeholder="Enter address" required></textarea>
+                    </div>
+    
+                    <button type="submit" class="btn btn-primary" style="background-color: pink;">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </main>
+    <!-- end content -->
+    
+    <!-- foother -->
+    <footer>
+        <div class="footerTitle text-center my-5">
+
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+
+        </div>
+
+        <div class="footerItem d-flex justify-content-around mb-5 p-5">
+
+            <div class="overview d-flex flex-column">
+                <h5>Overview</h5>
+                <a class="p-0 nav-link text-dark" href="">Shipping</a>
+                <a class="p-0 nav-link text-dark" href="">Refund</a>
+                <a class="p-0 nav-link text-dark" href="">Promotion</a>
+            </div>
+
+            <div class="company d-flex flex-column">
+                <h5>Company</h5>
+                <a class="p-0 nav-link text-dark" href="">About</a>
+                <a class="p-0 nav-link text-dark" href="">Career</a>
+                <a class="p-0 nav-link text-dark" href="">Contact Us</a>
+            </div>
+
+            <div class="explore d-flex flex-column">
+                <h5>Explore</h5>
+                <a class="p-0 nav-link text-dark" href="">Terms & Condition</a>
+                <a class="p-0 nav-link text-dark" href="">Privacy Policy</a>
+                <a class="p-0 nav-link text-dark" href="">For Developer</a>
+            </div>  
+        <!-- end foother -->
+
+    </footer>
+    <!-- copyrigth -->
+    <hr>    
+    <div class="text-center pb-3">
+        <h6>Copyright 2022 • All Rights Reserved LuxSpace Made With Adam</h6>
+    </div>
+    <!-- end copyrigth -->
+</body>
+</html>

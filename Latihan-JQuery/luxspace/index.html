@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>LuxSpace</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    
+
+
+    <header>
+        <nav class="navbar navbar-expand-sm bg-white navbar-dark justify-content-between">
+             <!-- nvbar 1 -->
+            <div>
+                <a class="navbar-brand mx-5" href="#">
+                  <img src="assets/img/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="navbar-nav">
+                <div class="nav-item d-flex">
+                    <div>
+                        <a class="nav-link text-dark" href="#">Showcase</a>
+                    </div>
+                     
+                    <div>
+                        <a class="nav-link text-dark" href="#">Catalog</a>
+                    </div>
+        
+                    <div>
+                        <a class="nav-link text-dark" href="#">Delivery</a>
+                    </div>
+        
+                    <div>
+                        <a class="nav-link text-dark" href="#">Rewards</a>
+                    </div>
+        
+                    <div>
+                        <img src="assets/img/cart-icon.png" alt="keranjang">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end nvbar 1 -->
+        
+        <!-- nvbar 2 -->
+        <nav class="nav">
+            <a class="ml-5" href="#">Home /&nbsp;</a>
+            <a href="#">Office Room /&nbsp;</a>
+            <a href="#"><strong>Detail</strong></a>
+        </nav>
+        <!-- end nvbar 1 -->
+
+        <div id="divAlert" class="alert alert-warning alert-dismissible fade show d-none" role="alert">
+            <p id="text-alert" class="p-0 m-0"></p>
+            <button type="button" class="close">
+                <span id="btnClose" aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </header>
+    
+    <!-- content -->
+    <main>
+        <div class="row mx-5 mb-5">
+            <!-- pilihan -->
+            <div class="col-2 d-flex flex-column justify-content-between">
+                <div><img src="assets/img/side-1.png" class="rounded-circle" alt="kursi1"></div>
+                <div><img src="assets/img/side-2.png" class="rounded-circle" alt="kursi2"></div>
+                <div><img src="assets/img/side-1.png" class="rounded-circle" alt="kursi3"></div>
+                <div><img src="assets/img/side-3.png" class="rounded-circle" alt="kursi4"></div>
+            </div>
+        
+            <!-- gambar kursi -->
+            <div class="col-6">
+                <img id="imgParent" src="assets/img/chair.png" alt="kursi" class="">
+            </div>
+            
+            <!-- isi -->
+            <div class="col-4">
+                <div class="mb-40">
+                    <h2>Chair Thatty</h2>
+                    <p>IDR 12.000.000</p>
+                    <button class="btnn"><a href="form.html" class="nav-link text-dark"><img src="assets/img/cart-icon.png" alt="keranjang">&nbsp;&nbsp; <b>Add to Chart</b></a></button>
+                </div>
+                
+                <div>
+                    <hr>
+                    <h4>About the product</h4>
+                    <p>Tailored to a lever of perfection synonymous with that of a Savile Row suit and with understated quality in the detail, Jetty has been influenced by timeless 1950s style.</p>
+                    <p>Providing a subtle nod to the past, Jetty also provides a perfect solution for the way we work today. A comprehensive product family, Jetty features a variety of elegant chairs and sofas.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="katalog py-5">
+            <div class="mb-4 ml-5">
+                <h5>Complete Your Room <br> With What We Designed</h5>
+            </div>
+
+            <div class="box d-flex justify-content-around">
+                <div class="bg-img-katalog p-3 bg-white" id="imgContent">
+                    <img src="assets/img/chair-4.png" alt="">
+                    <div>
+                        <p><b>Cangkir Mauttie</b></p>
+                        <p>IDR 89.300.000</p>
+                    </div>
+                </div>
+                <div class="bg-img-katalog p-3 bg-white" id="imgContent">
+                    <img src="assets/img/chair-3.png" alt="">
+                    <div>
+                        <p><b>Saman Kakka</b></p>
+                        <p>IDR 14.500.000</p>
+                    </div>
+                </div>
+                <div class="bg-img-katalog p-3 bg-white" id="imgContent">
+                    <img src="assets/img/chair-2.png" alt="">
+                    <div>
+                        <p><b>Lino Dino</b></p>
+                        <p>IDR 22.000.000</p>
+                    </div>
+                </div>
+                <div class="bg-img-katalog p-3 bg-white" id="imgContent">
+                    <img src="assets/img/chair-1.png" alt="">
+                    <div>
+                        <p><b>Syail Ammeno</b></p>
+                        <p>IDR 12.000.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- end content -->
+
+    <!-- foother -->
+    <footer>
+        <div class="footerTitle text-center my-5">
+
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+
+        </div>
+
+        <div class="footerItem d-flex justify-content-around mb-5 p-5">
+
+            <div class="d-flex flex-column">
+                <h5>Overview</h5>
+                <a class="p-0 nav-link text-dark" href="/form.html">Shipping</a>
+                <a class="p-0 nav-link text-dark" href="">Refund</a>
+                <a class="p-0 nav-link text-dark" href="">Promotion</a>
+            </div>
+
+            <div class="d-flex flex-column">
+                <h5>Company</h5>
+                <a class="p-0 nav-link text-dark" href="">About</a>
+                <a class="p-0 nav-link text-dark" href="">Career</a>
+                <a class="p-0 nav-link text-dark" href="">Contact Us</a>
+            </div>
+
+            <div class="d-flex flex-column">
+                <h5>Explore</h5>
+                <a class="p-0 nav-link text-dark" href="">Terms & Condition</a>
+                <a class="p-0 nav-link text-dark" href="">Privacy Policy</a>
+                <a class="p-0 nav-link text-dark" href="">For Developer</a>
+            </div>
+
+            <div class="email">
+                <h5>Special Letter</h5>
+                <form class="form-inline" id="form-email">
+                    <input id="input-email" class="form-control mr-sm-2 bg-light border-0" type="email" placeholder="Your Email Address" required>
+                       <button class="button my-2" type="submit" style="background-color: pink;"><img src="assets/img/tele-icon.png" alt=""></button>
+                </form>
+            </div>
+        </div><hr>
+        <!-- end foother -->
+
+        <!-- copyrigth -->
+        <div class="text-center pb-3">
+            <h6>Copyright 2022 • All Rights Reserved LuxSpace Made With Adam</h6>
+        </div>
+        <!-- end copyrigth -->
+    </footer>
+</body>
+</html>
