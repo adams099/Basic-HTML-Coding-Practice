@@ -41,9 +41,9 @@ $(document).ready(function(){
         $(this).addClass("d-none");
         
         // value
-        const fristName = $("#first-name", this).val();
+        const firstName = $("#first-name", this).val();
         const lastName = $("#last-name", this).val();
-        const name = fristName + " " + lastName;
+        const name = firstName + " " + lastName;
         const address = $("#inputAddress", this).val();
 
         // kirim vllue
